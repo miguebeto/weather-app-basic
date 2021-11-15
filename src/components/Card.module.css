@@ -1,0 +1,46 @@
+body{
+    width: 1000px;
+    height: 1000px;
+    background-image: url('./fondo_clima.jpg');
+}
+.container {
+    width: 400px;
+    transition: transform .5s;
+    border-radius: 18px;
+}
+.container:hover {
+    transform: scale(1.1);
+
+}
+.weather {
+    background-image: url('./fondo_Card.jpg');
+    width: 250px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border-style: outset;
+    border-radius: 7px;
+}
+
+.button {
+    margin-right: 5px;
+    align-self: flex-end;
+    border: none;
+    border-style: outset;
+    background-color: tomato;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color .5s;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.weatherInfo{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
