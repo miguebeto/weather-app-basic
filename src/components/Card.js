@@ -20,7 +20,7 @@ export default function Card({ onClose, name, min, max, img }) {
             <p>Max</p>
             <p>{max}</p>
           </div>
-          <img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="img not found" />
+          <img className={style.imgWeather} src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="img not found" />
         </div>
       </div>
     </div>
