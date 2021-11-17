@@ -1,7 +1,7 @@
 body{
     width: 1000px;
     height: 1000px;
-    background-image: url('./fondo_clima.jpg');
+    background-image: url('https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 .container {
     width: 400px;
@@ -13,16 +13,25 @@ body{
 
 }
 .weather {
-    background-image: url('./fondo_Card.jpg');
+    /* background-image: url('./fondo_Card.jpg'); */
     width: 250px;
     margin: 30px;
     display: flex;
     flex-direction: column;
     border-style: outset;
-    border-radius: 7px;
+    border-radius: 15px;
+    border-color: #abc4c4;
+    border-width: 4px;
+    box-shadow: 0 5px 10px #131313bf;
 }
 
+.weather:hover {
+    border-color: yellow;
+}
+
+
 .button {
+    margin-top: 2px;
     margin-right: 5px;
     align-self: flex-end;
     border: none;
@@ -44,3 +53,14 @@ body{
     justify-content: space-around;
 }
 
+.imgWeather {
+    width: 60px;
+    height: 60px;
+    background-color: #00dd905c;
+    border-style: outset;
+    border-radius: 7px;
+    border-color: #abc4c4;
+    border-width: 2px;
+    box-shadow: 0 5px 10px #131313bf;
+    margin-bottom: 10px;
+}
